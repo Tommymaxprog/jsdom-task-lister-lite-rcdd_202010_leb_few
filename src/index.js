@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   newform.addEventListener("submit", addTask);
 });
 function addTask {
-  
+  event.preventDefault();
+  const newTask = document.createElement("li");
 }
 
 document.addEventListener("DOMContentLoaded", () => {
