@@ -12,5 +12,7 @@ function addTask() {
   writeOnBoard(newTask);
   event.target.reset();
 }
-
+const writeOnBoard = task => {
+  document.getElementById("tasks").appendChild(task);
+};
 
