@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function addTask {
   event.preventDefault();
   const newTask = document.createElement("li");
+  newTask.innerText = input.value
 }
 
 document.addEventListener("DOMContentLoaded", () => {
